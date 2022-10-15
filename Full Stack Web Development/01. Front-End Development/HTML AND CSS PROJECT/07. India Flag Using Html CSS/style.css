@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#flag{
+    width: 100%;
+    height: 715px;
+}
+
+div#orange{
+    width: 100%;
+    height: 238px;
+    background-color: orange;
+}
+
+div#white{
+   width:100%;
+   height: 238px;
+   background-color: white;
+   text-align: center;
+}
+div#green{
+    width: 100%;
+    height: 238px;
+    background-color: green;
+}
