@@ -1,0 +1,166 @@
+.parent{
+    width: 500px;
+    height: 500px;  
+    margin:150px auto;
+    position: relative;
+    
+}
+@keyframes xyz{
+   form{
+     transform: rotate(0deg);
+   }
+
+  to{
+    transform: rotate(360deg);
+   }
+}
+div.child{
+    height: 250px;
+    width: 250px;  
+    animation-name: xyz;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+div.br1{
+    border-bottom-left-radius: 250px;
+    border-top-right-radius: 250px;
+}
+div.br2{
+    border-top-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+}
+div.parent > div.child1{
+    height: 250px;
+    width: 250px;
+    background-color: green;   
+    transform-origin: right bottom;
+    transform: rotate(0deg);
+}   
+div.parent > div.child2{
+background-color: purple;
+position: absolute;
+top: 0;
+right:0;
+}
+div.parent > div.child3{
+    background-color: orange;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
+
+div.child4{
+    background-color: blue;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+div.child5{
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: right bottom;
+    transform: rotate(14deg);
+}
+div.child6{
+    background-color: brown;
+    transform: rotate(28deg);
+}
+div.child7{
+    background-color: Crimson;
+    transform: rotate(42deg);
+}
+div.child8{
+    background-color: DarkCyan;
+    transform: rotate(56deg);
+}
+div.child9{
+    background-color:DarkGrey;
+    transform: rotate(70deg);
+}
+div.child10{
+    background-color: DarkMagenta;
+    transform: rotate(84deg);
+}
+div.child11{
+    background-color: DarkSalmon;
+    transform: rotate(98deg);
+}
+div.child12{
+    background-color: DarkSeaGreen;
+    transform: rotate(112deg);
+}
+div.child13{
+    background-color: DarkSlateBlue;
+    transform: rotate(126deg);
+}
+div.child14{
+    background-color:DarkViolet;
+    transform: rotate(140deg);
+}
+div.child15{
+    background-color: DeepPink;
+    transform: rotate(154deg);
+}
+div.child16{
+    background-color: DeepSkyBlue;
+    transform: rotate(168deg);
+}
+div.child17{
+    background-color: FireBrick;
+    transform: rotate(182deg);
+}
+div.child18{
+    background-color: ForestGreen;
+    transform: rotate(196deg);
+}
+div.child19{
+    background-color: Gold;
+    transform: rotate(210deg);
+}
+div.child20{
+    background-color: Indigo;
+    transform: rotate(224deg);
+}
+div.child21{
+    background-color: Khaki;
+    transform: rotate(238deg);
+}
+div.child22{
+    background-color: LawnGreen;
+    transform: rotate(252deg);
+}
+div.child23{
+    background-color: LightGray;
+    transform: rotate(266deg);
+}
+div.child24{
+    background-color: Maroon;
+    transform: rotate(280deg);
+}
+div.child25{
+    background-color: Navy;
+    transform: rotate(294deg);
+}
+div.child26{
+    background-color:OrangeRed;
+    transform: rotate(308deg);
+}
+div.child27{
+    background-color: Purple;
+    transform: rotate(322deg);
+}
+div.child28{
+    background-color:SeaGreen;
+    transform: rotate(336deg);
+}
+div.child29{
+    background-color: Teal;
+    transform: rotate(350deg);
+}
+div.child30{
+    background-color:YellowGreen;
+    transform: rotate(360deg);
+}
