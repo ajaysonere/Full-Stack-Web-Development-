@@ -1,0 +1,60 @@
+/* p::before {
+  content: "Now";
+  background-color: green;
+  letter-spacing: 10px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  opacity: 0.1;
+}
+
+* {
+  margin: 0%;
+}
+
+input {
+  border: 2px solid green;
+  padding: 5px;
+}
+
+input::-webkit-file-upload-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border: none;
+  border-radius: 20px;
+}
+
+input {
+  font-size: 18px;
+  color: blue;
+}
+
+input::placeholder {
+  font-size: 18px;
+  color: blue;
+} */
+a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  margin: 2vmax;
+}
+
+:nth-child(4) {
+  color: red
+}
+
+.name:hover {
+  color: red;
+}
+
+.name:active {
+  color: green;
+}
+
+.name:visited {
+  color: blue;
+}

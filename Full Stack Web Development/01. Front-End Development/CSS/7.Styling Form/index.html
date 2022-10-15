@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Information Form </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <form class="" action="app.js" method="post">
+      <h1> CONTACT US </h1>
+      <div>
+        FirstName: <input type="text" name="Firstname" value="" id="firstName" placeholder="Enter Your First Name.. ">
+      </div><br>
+      <div>
+        LastName: <input type="text" name="LastName" value="" id="lastName" placeholder="Enter Your Last Name ..">
+      </div><br>
+      <div>
+        E-mail :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="email" name="email" value="" id="email" placeholder="abcxyz@gmail.com">
+      </div><br>
+      <div>
+        Phone : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="tel" name="Contect" value="" id="phone" placeholder="997744XXXX">
+      </div><br>
+      <div>
+        Password : <input type="password" name="userpassword" value="">
+      </div><br>
+      <div>
+        Message: &nbsp;&nbsp;&nbsp;<textarea name="userdetails" rows="8" cols="30" id="message" placeholder="Enter Your Message ..."></textarea>
+      </div><br>
+      <div>
+        Gender : <select id="gender" name="usesrgender">
+          <option value="">Choose One </option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+      </div><br>
+      <div class="checkbox">
+        Frontend : <input type="checkbox" name="skills" value="">
+        Backend : <input type="checkbox" name="skills" value="">
+      </div><br>
+      <fieldset>
+        <legend>Mode of payment </legend>
+        Cash : <input type="radio" name="payment" value="">
+        Bank : <input type="radio" name="payment" value="">
+      </fieldset><br>
+      <input type="submit" name="" value="Submit">
+    </form>
+  </body>
+
+</html>

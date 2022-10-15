@@ -1,0 +1,33 @@
+body {
+  background-color: skyblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+.small {
+  box-sizing: border-box;
+  background-color: white;
+  margin: 20px 10px 30px 20px;
+  padding: 30px 15px 40px 10px;
+  border: 10px solid black;
+  width: 200px;
+  height: 650px;
+  overflow: hidden;
+}
+
+.ok {
+  background-color: red;
+  width: 500px;
+  height: 500px;
+}
+
+h1 {
+  border: 2px solid green;
+  padding: 20px;
+  margin: 20px;
+  height: 50px;
+  width: 250px;
+}

@@ -1,0 +1,10 @@
+body {
+  background-color: rgb(133, 125, 237);
+}
+
+div {
+  width: 21vw;
+  height: 21vw;
+  background-color: rgb(141, 181, 213);
+  margin: 10px;
+}

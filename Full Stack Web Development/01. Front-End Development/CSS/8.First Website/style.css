@@ -1,0 +1,102 @@
+body {
+  background-image: url("../images/bg.webp");
+  margin: 0;
+  height: 110vh;
+}
+
+h2 {
+  display: inline-block;
+  margin: -5px;
+}
+
+header {
+  padding: 20px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  position: sticky;
+  top: 0;
+  /* font-family: 'Source Sans Pro', sans-serif; */
+}
+
+.logo {
+  display: inline-block;
+  width: 220px;
+  margin-top: 1px;
+  cursor: pointer;
+}
+
+.navbar {
+  display: inline-block;
+  margin-top: 3px;
+  position: absolute;
+  right: 40px;
+  width: 600px;
+}
+
+.navbar>a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.navbar>a:hover {
+  color: red;
+}
+
+main>h1 {
+  color: rgb(222, 68, 116);
+  font-size: 80px;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  position: relative;
+  top: 60px;
+  left: 50px;
+  width: 400px;
+}
+
+h1+h3 {
+  color: white;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  top: -10px;
+  left: 50px;
+  width: 400px;
+}
+
+h3+p {
+  color: white;
+  word-spacing: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  position: relative;
+  bottom: 20px;
+  left: 50px;
+  width: 350px;
+}
+
+button {
+  width: 120px;
+  padding: 15px;
+  border-style: none;
+  background-color: rgba(249, 94, 6, 0.92);
+  position: relative;
+  left: 50px;
+  font-weight: 700;
+  color: white;
+  border: 2px solid rgba(249, 94, 6, 0.92);
+  transition: 0.5s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(241, 241, 241, 0);
+}
+
+footer {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  position: fixed;
+  bottom: 0;
+}

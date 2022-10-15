@@ -1,0 +1,28 @@
+div {
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  color: white;
+}
+
+body {
+  margin: 0;
+  height: 80vh;
+  width: 80vw;
+  border: 5px solid pink;
+  display: flex;
+  /* justify-content: center; */
+  /* justify-content: space-between;
+  align-items: center;
+  align-items: stretch; */
+  /* flex-direction: row-reverse; */
+  flex-wrap: wrap;
+  align-items: ;
+}
+
+/* .two {
+  align-self: center;
+  position: relative;
+  left: -52px;
+} */
