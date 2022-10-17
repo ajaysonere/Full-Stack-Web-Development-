@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'lato';
+    src: url(../Fonts/Lato-Regular.ttf);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div.mytablecontainer{
+    width: 80%;
+    margin: auto;
+}
+table.mytable{
+    width: 100%;
+}
+div.firstdiv{
+    padding: 10px;
+}
+ h1.bookstore{
+    float: left;
+    margin-top: 23px;
+    font-family: 'lato';
+    padding-left: 30px;
+ }
+ button{
+    position: relative;
+ }
+button.addnew{
+    float: right;
+    margin-top:25px;
+    background-color: #449d44;
+    border: none;
+    color: #fff;
+    padding: 10px 40px;
+    position: absolute;
+    right: 200px;
+    border-radius: 10px;
+}
+div.mytablecontainer > div:first-child{
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    background-color:#435D7D;
+}
+.fa-solid{
+    padding-right: 8px;
+}
