@@ -9,9 +9,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #ccc;
+}
 div.mytablecontainer{
     width: 80%;
     margin: auto;
+}
+div.secongdiv{
+    width:95%;
+    height:500px;
+    margin: auto;
+    background-color: aliceblue;
+
 }
 table.mytable{
     width: 100%;
@@ -48,4 +58,33 @@ div.mytablecontainer > div:first-child{
 }
 .fa-solid{
     padding-right: 8px;
+}
+tr.common{
+    width: 100%;
+    height: 50px;
+    color: black;
+    text-align: center;
+    font-family:'lato';
+    margin: 50px;
+    font-size: 20px;
+   padding: 20px;
+}
+table > thead{
+    font-size: 30px;
+   box-shadow: 5px 5px 5px #aadcef;
+   border-radius: 10px;
+   margin: auto;
+}
+table > .tdwidth > tr > td{
+    width: 15px;
+    height: 100px;
+    padding: 20px;
+}
+.fa-pen{
+    color: darkblue;
+
+}
+.fa-trash-can-arrow-up{
+    margin-left: 10px;
+    color: red;
 }
