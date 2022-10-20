@@ -11,7 +11,7 @@ body{
     background-image: url(../images/transparent.jpg);
     background-size: cover;
     font-family: 'playfair';
-    
+    color: white;
 }
 div.overlay{
     width: 100%;
@@ -20,9 +20,49 @@ div.overlay{
 }
 form.myform{
     width: 25%;
-    height: 450px;
+    height: 500px;
     background-color: rgba(0,0,0,0.6);
     position: absolute;
     left:35%;
     top: 80px;
+}
+
+form.myform > h1{
+    margin-top: 60px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+input[type="submit"]{
+    width: 80%;
+    height: 50px;
+    border-radius: 20px;   
+    background-color: #F02DF1; 
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    font-family: playfair;
+    margin:10px;
+    cursor: pointer;
+}
+form.myform > div{
+    margin: 20px;
+}
+
+input[type = "email"],
+input[type = "password"]{
+    margin-top: 10px;
+    width: 80%;
+    height: 40px;
+   border: none;
+   background-color: transparent;
+   color: #fff;
+   font-size: 20px;
+}
+form button{
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    background-color: transparent;
+    cursor: pointer;
 }
