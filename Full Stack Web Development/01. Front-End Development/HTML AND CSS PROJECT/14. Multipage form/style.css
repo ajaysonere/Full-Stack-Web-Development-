@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "regular";
+    src: url(../Fonts/Lato-Regular.ttf);
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #FCFDFC;
+    font-family: "regular";
+}
+div.logo{
+    width: 500px;
+    border: 2px solid black;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div img{
+    width: 140px;
+}
+div h1{
+    font-size: 15px;
+}
+div.formcontainer{
+    width: 500px;
+    height: 350px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.3);
+    margin: auto;
+    padding: 25px 50px;
+    position: relative;
+    top: -30px;
+}
+div.stepboxcircle{
+    height: 75px;
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+form h1{
+    font-size: 18px;
+}
+span.redstar{
+    color: red;
+}
+div.stepbox{
+    width: 40px;
+    height: 40px;
+    border: 3px solid black;
+    border-radius: 40px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+}
+div.pink{
+    border:3px solid rgb(255, 30, 225);
+}

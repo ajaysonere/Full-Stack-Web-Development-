@@ -25,6 +25,7 @@ form.myform{
     position: absolute;
     left:35%;
     top: 80px;
+    border-radius: 50px;
 }
 
 form.myform > h1{
