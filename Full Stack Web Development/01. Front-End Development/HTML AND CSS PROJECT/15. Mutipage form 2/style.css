@@ -1,0 +1,138 @@
+@font-face {
+    font-family: "space";
+    src: url(../Fonts/Arvo-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.container{
+    width: 50%;
+    min-height: 810px;
+    border: 5px solid #bababa;
+    margin: 50px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.1)
+}
+div.fromheading{
+    width:100%;
+    height: 100px;
+}
+.heading{
+    font-family: 'space';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.heading2{
+    /* border: 3px solid red; */
+    margin-top: -15px;
+}
+div h1{
+    font-size: 30px; 
+    line-height: 80px;
+    font-weight: 500;
+    color: #6753d8;
+}
+div h3{
+    font-size: 15px;
+    font-weight: 400;
+}
+div.pageheading{
+    height: 170px;
+    margin-top: 5px;
+}
+form h2{
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: #6753d8;
+}
+form > h2 > span{
+    float: right;
+    color: black;
+
+}
+form > div.inputcontainer{
+    margin-top: 15px;
+    width: 100%;
+    min-height: 80px;
+    font-size: 15px;
+    font-family: 'space';
+    position: relative;
+}
+.inputcontainer span{
+    color: #6753d8;
+}
+form input{
+    width: 100%;
+    height: 45px;
+    margin-top: 10px;
+    padding: 15px;
+    outline: none;
+    font-family: 'space';
+    font-size: 15px;
+    border: none;
+    background-color: #ebeef1;
+    padding-left: 80px;
+}
+input.nextbtn{
+    width: 150px;
+    float: right;
+    margin-top: 25px;
+    padding: 10px 25px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #6753d8;
+    border: none;
+    letter-spacing: 2px;
+}
+div.progressback,.progressbar{
+    width: 100%;
+    height: 30px;
+    background-color: #ebeef1;
+    margin-top: 10px;
+    box-shadow: 2px 1px 4px #bababa;
+}
+
+.progressbar{
+    width: 25%;
+    background-color: #6753d8;
+}
+.fa-sharp{
+    padding-left: 5px;
+    position: absolute;
+    top: 30px;
+    font-size: 28px;
+    width: 60px;
+    color: #bababa;
+    background-color:#ebeef1;
+    line-height: 40px;
+}
+div.listitem{
+    height: 70%;
+    width: 100%;
+}
+ul{
+    margin: 20px auto;
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black; 
+   
+}
+.headi{
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    background-color: #6753d8;
+    font-size: 30px;
+}
+
