@@ -1,9 +1,22 @@
 .parent{
-    width: 500px;
-    height: 500px;  
+    width: 200px;
+    height: 200px;  
     margin:150px auto;
     position: relative;
-    
+    background-color: greenyellow   ;
+    transition: all 3s linear;
+    animation-name: ajay;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+}
+@keyframes ajay {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 @keyframes xyz{
    form{
