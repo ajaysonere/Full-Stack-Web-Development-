@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="outer"> 
+           <div class="formbox">
+               <div class="button">
+                   <div id="curser"></div>
+                   <button type="button" class="logbutton" onclick="ajay()">Log In</button>
+                   <button type="button" class="logbutton" onclick="sonere()">Register</button>
+               </div>
+               <div class="sociallogo">
+               <a href="https://www.google.com/"> <img src="images/google.jpeg" alt=""></a>
+                <img src="images/linkdin.jpeg" alt="">
+                <img src="images/twiiter.jpeg" alt="">
+                <img src="images/fb.jpeg" alt="">
+              </div>
+               <form  id = "ajay"  class="loginform">
+                   <input type="text" class="input" placeholder="User Id" required>
+                   <input type="password" class="input" placeholder="Enter Password" required  
+                   >
+                   <input type="checkbox" class="check-box">
+                   <span> Remember Password </span>
+                   <button type="submit" class="submitbtn">Log in</button>
+               </form>
+               <form id = "sonere" class="loginform">
+                <input type="text" class="input" placeholder="User Id" required>
+                <input type="email" class="input" placeholder="Email Id" required>
+                <input type="password" class="input" placeholder="Enter Password" required>
+                <input type="checkbox" class="check-box">
+                <span> I agree to the terms & conditions </span>
+                <button type="submit" class="submitbtn">Register</button>
+            </form>
+           </div>
+               
+        </div>
+
+        <script>
+            var x = document.getElementById("ajay");
+            var y = document.getElementById("sonere");
+            var z = document.getElementById("curser");
+
+           function sonere()
+           {
+               x.style.left = "-400px";
+               y.style.left = "50px";
+               z.style.left = "110px";    
+           }
+           function ajay()
+           {
+               x.style.left = "50px";
+               y.style.left = "450px";
+               z.style.left = "0";
+               
+           }
+        </script>
+</body>
+</html>
