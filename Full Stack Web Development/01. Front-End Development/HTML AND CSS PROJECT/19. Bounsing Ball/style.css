@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.ball{
+    width: 145px;
+    height: 145px;
+    border-radius: 145px;
+    display: inline-block;
+    animation-name: bounce;
+    animation-duration: 0.9s;
+    animation-timing-function: linear;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes bounce {
+    from{
+        transform: translate(0px, 0px);
+    }
+    to{
+       transform: translate(0px,570px);
+    }
+}
+.ball1{
+    background-color: red;
+}
+.ball2{
+    background-color: aqua;
+    animation-delay: 0.2s;
+}
+.ball3{
+    background-color: blue;
+    animation-delay: 0.1s;
+}
+.ball4{
+    background-color: blueviolet;
+    animation-delay: 0.3s;
+}
+.ball5{
+    background-color: cadetblue;
+    animation-delay: 0.1s;
+}
+.ball6{
+    background-color:chartreuse;
+    animation-delay: 0.2s;
+}
+.ball7{
+    background-color: crimson;
+    animation-delay: 0.3s;
+}
+.ball8{
+    background-color: darkcyan;
+    animation-delay: 0.1s;
+}
+.ball9{
+    background-color: darkmagenta;
+    animation-delay: 0.4s;
+}
+.ball10{
+    background-color: darkorange;
+    animation-duration: 0.2;
+}

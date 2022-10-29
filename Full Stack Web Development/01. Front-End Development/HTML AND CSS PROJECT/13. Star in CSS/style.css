@@ -12,7 +12,8 @@
     animation-name: ajay;
     animation-duration: 0.2s;
     animation-timing-function: linear;
-    animation-iteration-count: 10;
+    animation-iteration-count: 100;
+    animation-direction: alternate;
 }
 @keyframes ajay {
     from{
