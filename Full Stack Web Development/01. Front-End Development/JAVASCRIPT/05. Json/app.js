@@ -45,3 +45,29 @@ document.write(`<br> ${student.grandfather.name}`);
 
 document.write(`<br> ${student.grandfather}`);
 document.write(`<br> ${student.grandfather.name}`);
+
+
+
+
+let companies = `[
+     {
+      "name":"Big Corporation",
+      "numberOfEmployee":10000,
+      "ceo":"Mr. Pappu Sonere",
+      "rating":4.6 
+    },
+    {
+       "name":"Small StartUp",
+       "numberOfEmployee":100,
+       "ceo":"ajay",
+       "rating":3.6
+    }
+]`
+
+console.log(JSON.parse(companies)[0].name);
+console.log(JSON.parse(companies)[1].name);
+document.write(`<br> ${JSON.parse(companies)[0].ceo}`);
+
+// for(i=0;i<companies.length;i++){
+//     console.log(`<br> ${companies[i]}`);
+// }
