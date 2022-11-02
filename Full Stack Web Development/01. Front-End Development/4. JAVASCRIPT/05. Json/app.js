@@ -15,18 +15,16 @@ console.log(object.marks);
 console.log(object.mobile);
 // document.write(object); // it will not print anything  
 document.write(object.id);
-document.write(` <br> ${object.marks}`);
+document.write(`${object.marks}`);
 
 for(i=0;i<object.address.length;i++){
     console.log(object.address[i]);
 }
 for(i=0;i<object.address.length;i++){
-    document.write(` <br> ${object.address[i]}`)
+    document.write(` ${object.address[i]}`)
 }
 
 console.log(object);
-
-
 
 student = {
     "firstname": "ajay",
@@ -66,8 +64,8 @@ let companies = `[
 
 console.log(JSON.parse(companies)[0].name);
 console.log(JSON.parse(companies)[1].name);
-document.write(`<br> ${JSON.parse(companies)[0].ceo}`);
+document.write(` ${JSON.parse(companies)[0].ceo}`);
 
-// for(i=0;i<companies.length;i++){
-//     console.log(`<br> ${companies[i]}`);
-// }
+for(i=0;i<companies.length;i++){
+    console.log(` ${companies[i]}`);
+}
