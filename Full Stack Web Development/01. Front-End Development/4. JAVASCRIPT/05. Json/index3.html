@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON P3</title>
+</head>
+
+<body>
+    <script>
+        person = {
+            "firstname": "Ajay",
+            "lastname": "Sonere",
+            "email": "ajaysonere20248@gmail.com",
+            "type": {
+                "type1": "admin",
+                "type2": "user"
+            },
+            "active": true,
+            "address": {
+                "vilage": "Pidhaya Bujurag",
+                "city": "Badwaha",
+                "dis": "khargone"
+            },
+        }
+
+        isObject = function (val) {
+            if (val === null) {
+                return false;
+            }
+            return (typeof val === 'object')
+        };
+        // console.log(person);
+        for (val in person) {
+            if (isObject(person[val])) {
+                for (val2 in person[val]) {
+                    console.log(val2 + " - " + person[val][val2]);
+                }
+            } else {
+                console.log(val + " - " + person[val]);
+            }
+        }
+
+    </script>
+</body>
+
+</html>
