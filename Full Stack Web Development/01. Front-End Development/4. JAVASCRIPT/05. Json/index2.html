@@ -22,7 +22,13 @@
             "address": {
                 "vilage": "Pidhaya Bujurag",
                 "city": "Badwaha",
-                "dis": "khargone"
+                "dis": "khargone",
+                "presonal": {
+                    "fatherName": "Mr.Pappu Sonere",
+                    "motherName": "Kiran Sonere",
+                    "grandFatherName": "Mr. ramchandra",
+                    "grandMother": "ramkorbai"
+                }
             },
         }
 
@@ -36,13 +42,23 @@
         for (val in person) {
             if (isObject(person[val])) {
                 for (val2 in person[val]) {
-                    console.log(val2 + " - " + person[val][val2]);
+                    if (isObject(person.address[val2])) {
+                        for(val3 in person.address.presonal){
+                            console.log(val3+" - "+person.address.presonal[val3]);
+                        }
+                    }
+                    else {
+                        console.log(val2 + " - " + person[val][val2]);
+                    }
                 }
             } else {
                 console.log(val + " - " + person[val]);
             }
         }
-
+        // console.log(person.address.presonal.fatherName)
+        // for (per in person.address.presonal) {
+        //     console.log(per + " - " + person.address.presonal[per]);
+        // }
     </script>
 </body>
 
