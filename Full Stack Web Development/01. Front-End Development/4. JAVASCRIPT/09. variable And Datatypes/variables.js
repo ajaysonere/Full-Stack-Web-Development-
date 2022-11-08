@@ -11,7 +11,10 @@ function multiplication(x,y){
     }
     console.log(z);
     console.log(w);
-    console.log(cc);
+    console.log(cc);  // error
+    const a = 10;  // can't midify value;
+    console.log(a);
+
 }
 
 // console.log(z);
