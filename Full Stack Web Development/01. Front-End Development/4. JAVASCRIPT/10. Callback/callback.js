@@ -7,9 +7,9 @@ obj = show;
 console.log(obj);
 
 
-function display(plac){
+function display(pla){
     console.log("Welcome");
-    plac();
+    pla();
 }
 
 function place(){
