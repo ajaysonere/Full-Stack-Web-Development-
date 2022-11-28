@@ -1,9 +1,9 @@
-const root = document.querySelector('#root');
+const root = document.querySelector('.root');
 const button = document.querySelector('button');
 
-function createCard (item){
+function createItem (item){
     const card = document.createElement('div');
-    card.classList.add('card');   
+    card.classList.add('.card');   
 
     const photo = document.createElement('img');
     photo.src = item.thumbnailUrl;
@@ -17,8 +17,8 @@ function createCard (item){
 }
 
 function displayImages(items){
-    items.forEach((item)=>{
-        createCard(item);
+    items.forEach(function(item) {
+        createItem(item);
     });
 }
 
