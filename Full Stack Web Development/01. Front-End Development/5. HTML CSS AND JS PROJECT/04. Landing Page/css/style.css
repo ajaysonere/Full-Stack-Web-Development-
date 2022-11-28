@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #432460;
+}
+header{
+    height: 100px;
+    border: 1px solid red;
+}
+header > nav{
+   height: 72px;
+   border: 1px solid purple;
+}
+
+.active{
+    background-color: #573a70 !important;
+}
+.a_main{
+    height: 636px;
+    border: 1px solid green;
+}
+
+footer{
+    height: 211px;
+    border: 1px solid blue;
+}
