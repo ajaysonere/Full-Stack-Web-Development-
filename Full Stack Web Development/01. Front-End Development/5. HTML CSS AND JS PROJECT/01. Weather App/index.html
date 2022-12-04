@@ -1,47 +1,94 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Weather Web App </title>
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+        #div1 {
+            background-image: url(4.jpg);
+        }
+    </style>
+</head>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
-  </head>
-  <body>
-    <div class="container text-center mt-5">
-        <div class="alert alert-success">
-            WelCome To Weather Web App 
+<body>
+    <div class="container pt-2" id="div1">
+        <div class="alert alert-warning pt-3" role="alert" style="text-align:center;color: black;">
+            Weather Application
         </div>
-        <p>This is a Realtime Weather Application </p>
+        <div class="row">
+            <div class="col-7">
+                <div class="alert alert-warning pt-3" role="alert" style="text-align:start;color: black;">
+                    Select City
+                </div>
+            </div>
+            <div class="col-2">
+                <!-- this for empty space -->
+            </div>
+            <div class="col-3">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-info btn-lg  dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        City
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#" onclick="drop(0)">Indore</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#" onclick="drop(1)">Mumbai</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#" onclick="drop(2)">Goa</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
-                <div class="md-3">
-                    <label for="city" class="form-label">City</label>
-                    <input type="text" class="form-control" id="city">
+            <div class="col-lg-4">
+                <div class="mb-3">
+                    <label for="place" class="form-label">Enter City</label>
+                    <input type="email" class="form-control" id="place" aria-describedby="emailHelp">
                 </div>
-                <input type="button" value="Fetch Weather" class="btn btn-primary mt-3" onclick="handlebtnClick()">
+                <input type="button" onclick="place()" value="Fetch data" class="btn btn-info btn-lg">
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col">
+                            <img id="icon" src="">
+                            <div>
+                                <h2 id="temp"></h2>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div>
+                                <h1 id="location"></h1>
+                            </div>
+                            <div>
+                                <h2 id="state"></h2>
+                            </div>
+                            <div>
+                                <h2 id="weather-condition"></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-lg-6">
-                <img src="" id="icon">
-                <h2 id="weather-condition"></h2>
-                <h1 id="temp"></h1>
-            </div>
-            <div class="col-lg-6">
-                <h2 id="city-name"></h2>
-                <h1 id="state-country"></h1>
-            </div>
-        </div>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+    <script src="./app.js"></script>
+    
+</body>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
-    <script src="app.js"></script>
-  </body>
 </html>
