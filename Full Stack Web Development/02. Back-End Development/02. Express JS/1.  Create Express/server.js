@@ -1,5 +1,6 @@
 import 'dotenv/config';
 import express from 'express';
+import {StatusCodes} from 'http-status-codes'  
 
 const app = express();
 
@@ -23,12 +24,12 @@ app.get("/factorial/:n",(req,res)=>{
             for(let i=1;i<=n;i++){
                 fac *= i;
             }
-            res.status(201).json({Factorial :fac});  
+            res.status(StatusCodes.OK).json({Factorial :fac});  
         }else{
-            res.status(400).json({message:"Only Positive Number are allowed "}); 
+            res.status(StatusCodes.BAD_REQUEST).json({message:"Only Positive Number are allowed "}); 
         }
      } catch(error){
-        res.status(500).json({message:'something went wrong '});
+        res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({message:'something went wrong '});
      }
 })
 
