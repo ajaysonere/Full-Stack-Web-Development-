@@ -2,7 +2,11 @@ import {StatusCodes} from 'http-status-codes';
 
 import { factorial,sum} from "../services/NumberService.js";
 
-export function processFactorial(req,res){
+function processMain(req,res){
+    res.status(StatusCodes.OK).json(`This is Home Page`);
+}
+
+ function processFactorial(req,res){
        try {
            let n = parseInt(req.params.n);
            if(n>0){
@@ -15,9 +19,15 @@ export function processFactorial(req,res){
         res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({message:'Something went Wrong'});
        }
 }
-export function processSum(req,res){
+ function processSum(req,res){
     let a  = req.body.x;
     let b  = req.body.y;
     let result = sum(a,b);
     res.status(StatusCodes.OK).json({sum : result});
+}
+
+export {
+    processMain ,
+    processFactorial,
+    processSum
 }
