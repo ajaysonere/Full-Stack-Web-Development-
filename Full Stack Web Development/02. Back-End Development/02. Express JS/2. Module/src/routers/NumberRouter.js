@@ -1,7 +1,9 @@
-import  Express  from "express";
-import 
+import express from 'express';
+import { processFactorial , processSum } from '../controllers/NumberController.js';
 
 const numberRouter = express.Router();
 
 numberRouter.get("/factorial/:n",processFactorial);
-numberRouter.get("/sum",processSum);
+// numberRouter.post('/sum',processSum);
+
+export default numberRouter;
