@@ -1,1 +1,3 @@
-console.log("Hello Node Js");
+function square(n){
+    return n **2; 
+}
