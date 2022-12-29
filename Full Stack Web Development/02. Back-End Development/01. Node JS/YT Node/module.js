@@ -8,7 +8,7 @@
 
 // console.log(color.redBright('Hello Node JS'));
 
-const path = require('path')
+// const path = require('path')
 
 // dirname
 // console.log('Folder Name ', path.dirname(__filename));
@@ -27,3 +27,12 @@ const path = require('path')
 // console.log("Join :",path.join(__dirname,'node js','module.js'));
 
 // File System 
+export const register = function (username){
+    console.log(`Dear user ${username} , you have been succesfully registered `);
+}
+
+export const login = function(username,password){
+    console.log(`${username} is logged in`);
+}
+
+
