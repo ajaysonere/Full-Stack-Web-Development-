@@ -18,3 +18,11 @@ console.log(__parse);
 
 const __join = join(__dirname, 'home','app.js');
 console.log(__join);
+
+// console.log(filePath);
+// console.log(basename(filePath));
+// console.log(extname(filePath));
+// console.log(dirname(filePath));
+// console.log(join('Ajay',"pappu",'inde.htmt'));
+
+// console.log(filename(filePath));

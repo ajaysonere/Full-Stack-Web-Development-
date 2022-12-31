@@ -5,7 +5,7 @@ import  { basename, dirname, extname, join } from 'path';
 const PORT = process.env.PORT || 7800
 const app = express();
 const filePath = fileURLToPath(import.meta.url);
-
+// console.log(dirname(filePath)+'/src/index.html');
 
 app.get('/',(req,res)=>{
     res.sendFile(dirname(filePath)+'/src/index.html');
