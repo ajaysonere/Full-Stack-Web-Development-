@@ -64,7 +64,7 @@ body{
     visibility: visible;
     color: #2ecc71;
 }
-.form-control .success i .fa-exclamation-circle {
+.form-control .error i .fa-exclamation-circle {
     visibility: visible;
     color: #e74c3c;
 }
@@ -85,6 +85,10 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
+}
+.form-control .error small {
+    color: #e74c3c;
+    visibility: visible;
 }
 
 .form button{
