@@ -1,4 +1,4 @@
-// ser initialcount
+// set initialcount
 let count =0;
 
 // select value and btn
