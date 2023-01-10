@@ -34,6 +34,34 @@ while(c<=20){
 
 
 // For Loop 
-for(let f=0;f<5;f++){
-    console.log("This is For Loop");
+// for(let f=0;f<5;f++){
+//     console.log("This is For Loop");
+// }
+
+// For each loop  
+
+const names = ["Ajay ","Barbie","logic","Mf" , "Doom " , "Tool"];
+
+// for(let name of names){
+//     console.log(names.indexOf(name));
+// }
+
+// SPECIALLY FOR ARRAY 
+
+names.forEach( (name,index)=>console.log(name,index));
+
+// Break , continue , async adn await does work with for Each and it only work for arry
+
+
+// for in loop 
+const user = {
+    firstName: "Ajay",
+    lastName: "Sonere",
+    email: "ajay@gmail.com",
+    mobile: "9977449230"
 }
+
+for(let x in user){
+    console.log(x);
+}
+
