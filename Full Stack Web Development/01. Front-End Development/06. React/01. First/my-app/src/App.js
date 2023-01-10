@@ -2,6 +2,7 @@
 // import { Header } from "./Header";
 import { Navbar } from "./Navbar";
 import { SignupForm } from "./SignupForm";
+import { Userlist } from "./Userlist";
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
                 <h1>Hello World </h1>
                 {/* <Header heading = "Welcome to home " text = "this data form text props " navbar = {navbar}></Header>
                 <Counter></Counter> */}
-                <SignupForm></SignupForm>
+                {/* <SignupForm></SignupForm> */}
+                <Userlist></Userlist>
              </>
          );
 }
