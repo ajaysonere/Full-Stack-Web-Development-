@@ -46,7 +46,7 @@ const names = ["Ajay ","Barbie","logic","Mf" , "Doom " , "Tool"];
 //     console.log(names.indexOf(name));
 // }
 
-// SPECIALLY FOR ARRAY 
+// SPECIFICALLY FOR ARRAY 
 
 names.forEach( (name,index)=>console.log(name,index));
 
