@@ -52,7 +52,6 @@ export function SignupForm(){
       const handleFormValidation = (event)=>{
           setFormData({...formData,[event.target.name]:event.target.value});
         }
-
       const handleSubmit = (event)=>{
             event.preventDefault();
             console.log(formData);
