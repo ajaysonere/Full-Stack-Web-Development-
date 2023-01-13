@@ -2,3 +2,10 @@
     padding: 0;
     margin: 0;
 }
+
+.display {
+    color: rebeccapurple;
+    font-size: 50px;
+    transform: translateX(120px);
+    transition: all 0.5s ease;
+}
