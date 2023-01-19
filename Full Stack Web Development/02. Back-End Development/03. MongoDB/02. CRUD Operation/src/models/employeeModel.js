@@ -8,5 +8,5 @@ const employeeSchema = new mongoose.Schema({
     salary:{type:Number,required:true},
     department:{type:String,required:true}
 });
- 
+
 export const employeeModel = mongoose.model('employee',employeeSchema);
