@@ -39,7 +39,6 @@ export class UsersData extends Component {
                                         <td>{u.username}</td>
                                         <td>{u.email}</td>
                                         <td>{u.phone}</td>
-
                                     </tr>
                                 )
                             })
