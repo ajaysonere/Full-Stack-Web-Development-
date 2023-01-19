@@ -1,31 +1,23 @@
-import { Counter } from "./components/Counter";
-// import { Header } from "./Header";
-import { Navbar } from "./components/Navbar";
-// import { SignupForm } from "./SignupForm";
-// import { Userlist } from "./Userlist";
-
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Nav } from "./components/Nav";
+import { Counter } from "./components/Counter";
+import { Sign } from "./components/Sign";
+import { Userlist } from "./components/Userlist";
 // import { Navbar } from "./components/Navbar";
-// import { Counter } from "./components/Counter";
-import { SignupForm } from "./components/SignupForm";
-
-// import { UserTable } from "./components/UserTable";
-// import { UsersData } from "./components/UsersData";
-
-
 
 function App() {
    return (
-             <> 
-                <BrowserRouter>
-                   <Navbar> </Navbar>
-                   <Routes>
-                      <Route path="/" element={<Counter />}></Route>
-                      <Route path="/signup" element = {<SignupForm></SignupForm>}></Route>
-                   </Routes>
-                </BrowserRouter>
-             </>
-         );
+      <>
+         <BrowserRouter>
+           <Nav></Nav>
+           <Routes>
+            <Route path="/" exact element={ <Counter ></Counter>} />
+            <Route path="/sign" element={<Sign />} />
+            <Route path="/usersData" element={<Userlist></Userlist>}></Route>
+            </Routes>
+         </BrowserRouter>
+      </>
+   )
 }
 
 export default App;
