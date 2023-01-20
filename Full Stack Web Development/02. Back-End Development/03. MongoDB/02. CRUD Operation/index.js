@@ -4,8 +4,10 @@ import { configureDb } from "./src/configs/dbconfig.js";
 import employeeRouter from "./src/router/employeeRouter.js";
 import adminRouter from "./src/router/adminRouter.js";
 
-const app = express();
+import  cors  from "cors";
 
+const app = express();
+app.use(cors());
 app.use(express.json());
 app.use(employeeRouter);
 app.use(adminRouter);
