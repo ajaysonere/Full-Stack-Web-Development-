@@ -62,7 +62,7 @@ export function Register(){
           {
                 isregisterd ? <Container className="mt-3">
                     <Alert variant="success"> Employee Registered Successfully </Alert>
-                </Container> : null 
+                </Container> : null
           }
        </>
     );

@@ -20,9 +20,6 @@ export function NavigationBar(){
                             <LinkContainer to="/employees-list" >
                                 <Nav.Link>Employees List</Nav.Link>
                             </LinkContainer>
-                            <LinkContainer to="/userList" >
-                                <Nav.Link>users List</Nav.Link>
-                            </LinkContainer>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
