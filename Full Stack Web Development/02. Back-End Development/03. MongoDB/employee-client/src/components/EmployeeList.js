@@ -46,7 +46,6 @@ export function EmployeeList(){
                                     }}>Delete</Button></td>
 
                                     <td><Button type="submit" variant="success" onClick={()=>{
-                                      
                                     }}>Edit</Button></td>
                                 </tr>
                             );
