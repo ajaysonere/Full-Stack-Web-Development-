@@ -9,17 +9,17 @@ html, body {
 }
 
 .section1 {
-  background-image: url(../images/image1.png);
+  background-image: url(./images/image1.png);
   min-height: 100%;
 }
 
 .section2 {
-  background-image: url(../images/image2.png);
+  background-image: url(./images/image2.png);
   min-height: 400px;
 }
 
 .section3 {
-  background-image: url(../images/image3.png);
+  background-image: url(./images/image3.png);
   min-height: 400px;
 }
 
